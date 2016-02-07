@@ -26,8 +26,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_thea
-PRODUCT_DEVICE := thea
+PRODUCT_NAME := omni_falcon
+PRODUCT_DEVICE := falcon
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_MODEL := Moto G 2014 LTE
+PRODUCT_MODEL := Moto G
